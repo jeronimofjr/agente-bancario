@@ -107,24 +107,16 @@ Já o Streamlit entrou pela praticidade: permite montar uma interface de chat fu
 ### Instalação
 
 ```bash
-git clone <url-do-repositorio>
-cd langgraph_multiagent
+git clone https://github.com/jeronimofjr/agente-bancario
+cd agente-bancario
 
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Configuração
-
-<!-- Crie um arquivo `.env` na raiz do projeto:
-
-```dotenv
-OPENAI_API_KEY=sua_chave_aqui
-OPENAI_MODEL=gpt-4o-mini
-FRANKFURTER_API_BASE="https://api.frankfurter.dev/v1"
-``` -->
 
 
 Crie um arquivo `.env` na raiz do projeto. Você pode copiar o arquivo `.env.example` e renomeá-lo para `.env`:
