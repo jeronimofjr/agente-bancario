@@ -1,0 +1,7 @@
+__pycache__/
+tests/
+testes/
+docs2/
+venv/
+
+.env
